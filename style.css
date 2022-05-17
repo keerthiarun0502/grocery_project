@@ -677,7 +677,7 @@ section{
 
 /* media queries */
 @media (max-width:991px){
-    htmml{
+    html{
         font-size: 55%;
     }
     .header{
@@ -725,5 +725,22 @@ section{
     .footer{
         text-align: center;
     }
+    .create_account{
+        width: 380px;
+    }
+    .close{
+        font-size: 29px;
+        position: relative;
+        left: 349px;
+        top: 20px;
+        cursor: pointer;
+    }
 }
+/* @media(max-width:400px){
+    .create_account{
+        width: 370px;
+
+    }
+    
+} */
 
